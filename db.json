@@ -9,74 +9,61 @@
   ],
   "pratos": [
   {
-     "id_prato": 100,
-    "dia": "2025-06-29T00:00:00.000-03:00",
+    "id_usuario":1,
+    "id_prato":201,
+    "data": "2025-10-23T00:00:00-03:00",
+    "turno": "integral",
+    "refeicao": {
+      "titulo": "almoco",
+      "itens": ["arroz", "feijão", "couve", "farofa", "laranja"],
+      "bebida": "suco",
+      "img": ["/img/img1.png"]
+    },
+    "lanche": {
+      "titulo": "lanche",
+      "itens": ["biscoito"],
+      "bebida": "suco",
+      "img": ["/img/img1.png","/img/img1.png"]
+    }
+  },
+  {
+    "id_usuario":1,
+    "id_prato":201,
+    "data": "2025-10-23T00:00:00-03:00",
+    "turno": "manhã",
+    "refeicao": {
+      "titulo": "almoco",
+      "horario": "9:30",
+      "itens": ["arroz", "feijão", "couve", "farofa", "laranja"],
+      "bebida": "suco",
+      "img": ["/img/img1.png","/img/img1.png"]
+    }
+  },
+  {
+    "id_usuario":1,
+    "id_prato":201,
+    "data": "2025-10-23T00:00:00-03:00",
     "turno": "tarde",
-    "principal": "feijoada, arroz, farofa, couve",
-    "sobremesa": "laranja",
-    "bebida": "suco de laranja",
-    "imagem": "https://t3.ftcdn.net/jpg/05/10/26/64/240_F_510266490_TDUQ0BozChlZR2PYYZBYVjitIG56fwcI.jpg",
-    "id_usuario": 1
+    "refeicao": {
+      "titulo": "merenda",
+      "horario": "15:00",
+      "itens": ["arroz", "feijão", "couve", "farofa", "laranja"],
+      "bebida": "suco",
+      "img": ["/img/img1.png","/img/img1.png"]
+    }
   },
   {
-     "id_prato": 101,
-    "dia": "2025-06-30T00:00:00.000-03:00",
-    "turno": "manhã",
-    "principal": "feijoada, arroz, farofa, couve",
-    "sobremesa": "laranja",
-    "bebida": "suco de laranja",
-    "imagem": "https://t3.ftcdn.net/jpg/05/10/26/64/240_F_510266490_TDUQ0BozChlZR2PYYZBYVjitIG56fwcI.jpg",
-    "id_usuario": 1
-  },
-  {
-     "id_prato": 102,
-    "dia": "2025-07-01T00:00:00.000-03:00",
-    "turno": "manhã",
-    "principal": "feijoada, arroz, farofa, couve",
-    "sobremesa": "laranja",
-    "bebida": "suco de laranja",
-    "imagem": "https://t3.ftcdn.net/jpg/05/10/26/64/240_F_510266490_TDUQ0BozChlZR2PYYZBYVjitIG56fwcI.jpg",
-    "id_usuario": 1
-  },
-  {
-     "id_prato": 103,
-    "dia": "2025-07-02T00:00:00.000-03:00",
-    "turno": "manhã",
-    "principal": "feijoada, arroz, farofa, couve",
-    "sobremesa": "laranja",
-    "bebida": "suco de laranja",
-    "imagem": "https://t3.ftcdn.net/jpg/05/10/26/64/240_F_510266490_TDUQ0BozChlZR2PYYZBYVjitIG56fwcI.jpg",
-    "id_usuario": 1
-  },
-  {
-     "id_prato": 104,
-    "dia": "2025-07-03T00:00:00.000-03:00",
-    "turno": "manhã",
-    "principal": "feijoada, arroz, farofa, couve",
-    "sobremesa": "laranja",
-    "bebida": "suco de laranja",
-    "imagem": "https://t3.ftcdn.net/jpg/05/10/26/64/240_F_510266490_TDUQ0BozChlZR2PYYZBYVjitIG56fwcI.jpg",
-    "id_usuario": 1
-  },
-  {
-     "id_prato": 105,
-    "dia": "2025-07-04T00:00:00.000-03:00",
-    "turno": "manhã",
-    "principal": "feijoada, arroz, farofa, couve",
-    "sobremesa": "laranja",
-    "bebida": "suco de laranja",
-    "imagem": "https://t3.ftcdn.net/jpg/05/10/26/64/240_F_510266490_TDUQ0BozChlZR2PYYZBYVjitIG56fwcI.jpg",
-    "id_usuario": 1
-  },
-    {
-     "id_prato": 106,
-    "dia": "2025-07-05T00:00:00.000-03:00",
-    "turno": "manhã",
-    "principal": "feijoada, arroz, farofa, couve",
-    "sobremesa": "laranja",
-    "bebida": "suco de laranja",
-    "imagem": "https://t3.ftcdn.net/jpg/05/10/26/64/240_F_510266490_TDUQ0BozChlZR2PYYZBYVjitIG56fwcI.jpg",
-    "id_usuario": 1
+    "id_usuario":1,
+    "id_prato":201,
+    "data": "2025-10+-23T00:00:00-03:00",
+    "turno": "noturno",
+    "refeicao": {
+      "titulo": "Janta",
+      "horario": "20:10",
+      "itens": ["arroz", "feijão", "couve", "farofa", "laranja"],
+      "bebida": "suco",
+      "img": ["/img/img1.png","/img/img1.png"]
+    }
   }
 ],
   "votacao": [
